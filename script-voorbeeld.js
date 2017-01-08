@@ -67,7 +67,11 @@ function drawChart() {
     var options = {
         'title': 'Rainfall and Temperature',
         'width': 1280,
-        'height': 620
+        'height': 620,
+        'series': {
+            0: { color: '#00CED1' },
+            1: { color: '#FF1493' },
+        }
     };
 
     // Instantiate and draw our chart, passing in some options.
