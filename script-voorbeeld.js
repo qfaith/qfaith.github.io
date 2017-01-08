@@ -66,8 +66,8 @@ function drawChart() {
     // Set chart options
     var options = {
         'title': 'Rainfall and Temperature',
-        'width': 400,
-        'height': 300
+        'width': 1280,
+        'height': 620
     };
 
     // Instantiate and draw our chart, passing in some options.
