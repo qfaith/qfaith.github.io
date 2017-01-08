@@ -9,7 +9,11 @@ function LoadGoogle() {
 
 LoadGoogle();
 
-function drawStuff() {
+function drawChart() {
+
+    var button = document.getElementById('change-chart');
+    var chartDiv = document.getElementById('chart_div');
+
     var data = new google.visualization.DataTable();
     data.addColumn('datetime', 'Time');
     data.addColumn('number', 'Temperature');
